@@ -56,6 +56,10 @@
     margin-top: 70px;
   }
 
+  .card-title{
+    color: rgb(59, 156, 235);
+  }
+
 
 
 
@@ -465,5 +469,11 @@ input[type="radio"]{
 
 .mobiletnc{
   margin-top: 40px;
+  /* width: 60%; */
+}
+
+
+.mobiletnc2{
+  margin-top: 20px;
   /* width: 60%; */
 }
