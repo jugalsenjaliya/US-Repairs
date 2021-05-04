@@ -477,3 +477,76 @@ input[type="radio"]{
   margin-top: 20px;
   /* width: 60%; */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Repair Form css */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-mid {
+  background: #fff;
+  padding: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  /* border: 1px solid rgb(0, 0, 0); */
+  border-radius: 4px;
+  width: 40%;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+}
+
+.form-mid form input,
+.form-mid form textarea {
+  background: #f8f9fa;
+  border: 2px solid rgba(216, 216, 216, 0.3);
+  color: #777;
+  font-size: 16px;
+  padding: 12px 15px;
+  width: 100%;
+  border-radius: 4px;
+  height: 55px;
+}
+
+.field{
+  padding: 10px;
+}
+
+.field-text{
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
+}

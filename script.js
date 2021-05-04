@@ -264,3 +264,71 @@ function showSuggestions(list){
     }
     suggBox.innerHTML = listData;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Repair form mail
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function sendmail(){
+
+	var name = $('#Name').val();
+	var email = $('#Sender').val();
+	var contact = $('#Contact').val();
+	var brand = $('#Brand').val();
+	var model = $('#Model').val();
+	var address = $('#Address').val();
+	
+	var Body='Name: '+name+'<br>Email: '+email+'<br>Contact: '+contact+'<br>Brand No.: '+brand+'<br>Model No.: '+model+'<br>Address: '+address;
+	
+	Email.send({
+		Host : "smtp.gmail.com",
+		Username : "senjaliyajugal@gmail.com",
+		Password : "Jugal@17-7",
+		// SecureToken:"adaa48a3-d136-4280-b91b-3f60b2838eca",
+		To: 'senjaliyajugal@gmail.com',
+		From: "senjaliyajugal@gmail.com",
+		Subject: "New message on contact from "+name,
+		Body: Body
+	}).then(
+		message =>{
+			if(message=='OK'){
+				alert('Your mail has been send. Thank you for connecting.');
+				// window.location.href = "index.html";
+			}
+			else{
+				console.error (message);
+				alert('There is error at sending message. ')
+			}
+		}
+	);
+}
