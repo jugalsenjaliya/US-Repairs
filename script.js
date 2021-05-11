@@ -311,10 +311,10 @@ function sendmail(){
 	var Body='Name: '+name+'<br>Email: '+email+'<br>Contact: '+contact+'<br>Brand No.: '+brand+'<br>Model No.: '+model+'<br>Address: '+address;
 	
 	Email.send({
-		Host : "smtp.gmail.com",
-		Username : "senjaliyajugal@gmail.com",
-		Password : "Jugal@17-7",
-		// SecureToken:"adaa48a3-d136-4280-b91b-3f60b2838eca",
+		// Host : "smtp.gmail.com",
+		// Username : "",
+		// Password : "",
+		SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
 		To: 'senjaliyajugal@gmail.com',
 		From: "senjaliyajugal@gmail.com",
 		Subject: "New message on contact from "+name,
@@ -323,7 +323,7 @@ function sendmail(){
 		message =>{
 			if(message=='OK'){
 				alert('Your mail has been send. Thank you for connecting.');
-				// window.location.href = "index.html";
+				window.location.href = "index.html";
 			}
 			else{
 				console.error (message);
