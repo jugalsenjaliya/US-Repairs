@@ -75,56 +75,56 @@
     <div style="display: flex;background-color: rgba(219, 238, 245, 0.363);padding: 10px;margin-bottom: 50px;margin-top: 50px;">
 
     <div class="booking-form-signup" id="mediasignup">
-		<form class="loginform" onsubmit="return signupvalidate();" action="index.html" method="post">
+		<form class="loginform" onsubmit="return signupvalidate();" action="reginsert.php" method="post">
 			<h2 class="signupheader" style="padding: 20px;text-align: center;color: rgba(53, 121, 246, 1);">Sign Up</h2>
 
 			<div class="form-group">
 				<span class="form-label">Firstname</span>
-				<input class="form-control" type="text" id="firstname" placeholder="Enter Firstname" oninput="checkbox2()"/>
+				<input name="fname" class="form-control" type="text" id="firstname" placeholder="Enter Firstname" oninput="checkbox2()"/>
 				<span id="fname" class="text-danger"></span>
 			</div>
 
 			<div class="form-group">
 				<span class="form-label">Lastname</span>
-				<input class="form-control" type="text" id="lastname" placeholder="Enter Lastname" oninput="checkbox2()"/>
+				<input name="lname" class="form-control" type="text" id="lastname" placeholder="Enter Lastname" oninput="checkbox2()"/>
 				<span id="lname" class="text-danger"></span>
 			</div>
 
 			<div class="form-group">
 				<span class="form-label">Email Id</span>
-				<input class="form-control" type="text" id="emailid" placeholder="Enter Email Id" oninput="checkbox2()"/>
+				<input name="email" class="form-control" type="text" id="emailid" placeholder="Enter Email Id" oninput="checkbox2()"/>
 				<span id="eid" class="text-danger"></span>
 			</div>
 				<div class="row">
 					<div class="col-sm-7">
 						<div class="form-group">
 							<span class="form-label">Gender</span><br>
-							<input type="radio" id="male" name="gender" value="male" oninput="checkbox2()">
+							<input type="radio" id="male" name="gender" value="m" oninput="checkbox2()">
 							<label for="male">Male</label>
-							<input type="radio" id="female" name="gender" value="female" oninput="checkbox2()">
+							<input type="radio" id="female" name="gender" value="f" oninput="checkbox2()">
 							<label for="female">Female</label><br>
 						</div>
 						<span id="radio" class="text-danger"></span>
 					</div>
 
-					<div class="col-sm-5">
+					<!-- <div class="col-sm-5">
 						<div class="form-group">
 							<span class="form-label">Age</span>
-							<input class="form-control" type="number" id="age" placeholder="Age" oninput="checkbox2()"/>
+							<input name="age" class="form-control" type="number" id="age" placeholder="Age" oninput="checkbox2()"/>
 							<span id="agee" class="text-danger"></span>
 						</div>
-					</div>
+					</div> -->
 				</div>
 
 			<div class="form-group">
 				<span class="form-label">Password</span>
-				<input class="form-control" type="password" id="password" placeholder="Password" oninput="checkbox2()"/>
+				<input name="password" class="form-control" type="password" id="password" placeholder="Password" oninput="checkbox2()"/>
 				<span id="pass" class="text-danger"></span>
 			</div>
 
 			<div class="form-group">
 				<span class="form-label">Confirm Password</span>
-				<input class="form-control" type="password" id="cpassword" placeholder="Re-Enter password" oninput="checkbox2()"/>
+				<input name="confpassword" class="form-control" type="password" id="cpassword" placeholder="Re-Enter password" oninput="checkbox2()"/>
 				<span id="cpass" class="text-danger"></span>
 			</div>
 
