@@ -4,14 +4,28 @@
 
 
 function loginvalidate(){
-	var username = document.getElementById("username");
+	// var username = document.getElementById("username");
+	var emailid = document.getElementById("emailid");
 	var password = document.getElementById("password");
+	var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 
-	if (username.value.trim() == "") {
-		username.style.border = "solid 2px #b30000";
-		document.getElementById("uname").innerHTML = "** Please Enter Username";
+	// if (username.value.trim() == "") {
+	// 	username.style.border = "solid 2px #b30000";
+	// 	document.getElementById("uname").innerHTML = "** Please Enter Username";
+	// 	return false;
+	// }
+
+	if (emailid.value.trim() == "") {
+		emailid.style.border = "solid 2px #b30000";
+		document.getElementById("eid").innerHTML = "** Enter Email Id";
 		return false;
 	}
+
+	else if (reg.test(emailid.value) == false) {
+		emailid.style.border = "solid 2px #b30000";
+		document.getElementById("eid").innerHTML = "** Enter Valid Email Id";
+		return (false);
+    }
 
 	else if (password.value.trim() == "") {
 		password.style.border = "solid 2px #b30000";
@@ -26,8 +40,10 @@ function loginvalidate(){
 
 
 function checkbox(){
-	username.style.border = "solid 1px #33cc33";
-	document.getElementById("uname").innerHTML = "";
+	// username.style.border = "solid 1px #33cc33";
+	// document.getElementById("uname").innerHTML = "";
+	emailid.style.border = "solid 1px #33cc33";
+		document.getElementById("eid").innerHTML = "";
 	
 	password.style.border = "solid 1px #33cc33";
 	document.getElementById("pass").innerHTML = "";
