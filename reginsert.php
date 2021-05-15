@@ -31,7 +31,7 @@ else {
         $stmt->bind_param("sssss",$fname,$lname, $email, $gender, $password);
         if ($stmt->execute()) {
             // echo '<script>alert("Welcome to Geeks for Geeks")</script>';
-            header("location: index.html");
+            header("location: login.html");
         }
         else {
             echo $stmt->error;
