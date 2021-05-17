@@ -18,7 +18,7 @@ else {
     $result = $conn->query($query);
 
     if($result->num_rows > 0){
-        header("location: index.html");
+        header("location: index2.php");
     }
     else{
         header("location: login.html");

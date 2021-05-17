@@ -13,7 +13,7 @@
     <title>US Repairs</title>
   </head>
   <body>
-
+    
     <!-- Header -->   
     
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
@@ -38,17 +38,21 @@
                 <li class="nav-item">
                     <a class="nav-link" href="kitguides.html">Kit Guides</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="login.html">Login</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="signup.html">Sign Up</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="aboutus.html">About Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Help & Support</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="logout.php">Logout</a>
                 </li>
             
             </ul>
@@ -73,43 +77,122 @@
     <!-- Body -->
 
 
-    <div class="container2">
-        <h1>Connect It</h1>
-        <hr style="border: 5px solid rgb(59, 156, 235);border-radius: 10px; width: 5%;margin-bottom: 0px;">
-        <div style="width: 58%;margin: auto;text-align: center;display: flex;margin-top: 0px;">
-            <img src="assets/img/Internal_communication_communication_internal_collaboration_conversation_discussion_dialogue_speaking_forum_talk_talking_education_speech_explanation_comment_communication_message-512.png" width="150px" height="150px">
-
-            <p style="margin: 70px 50px 50px 50px;">From getting your new kit home to setting it up for you – or just helping you figuring out how it all works – we're here to lend a hand at every stage.</p>
-
-            <img src="assets/img/share.png" width="150px" height="150px">
+    <div class="containers">
+        <img src="assets/img/psp-banner-hero-repair.image.large_2x.jpg" alt="Snow" style="width:100%;border-radius: 1%;filter: blur(0.5px);" >
+        <h1 class="centered" style="font-weight: 1000;">Book a repair today</h1>
+        <h4 class="centered2" style="font-weight: 400;">When your kit stops working, it's an emergency – but whatever it is and wherever you bought it, your local US Repairs experts can get it sorted.
+        </h4>
+        <div class="centered3">
+            <a href="fixit.html">
+                <button class="button btn-danger"><span>Book Now</span></button>
+            </a>
         </div>
     </div>
 
-    <hr>
-
-    <div style="display: flex;margin-left: 320px;margin-top: 60px;margin-bottom: 50px;">
-        <img src="assets/img/undraw_connection_b38q.svg" width="400px" height="350px" style="margin-right: 70px;margin-top: 12px;">
-        <img src="assets/img/undraw_Connecting_Teams_8ntu.svg" width="400px" height="350px">
+    <div class="container2">
+        <h2>We've2 your local experts – wherever you are</h2>
+        <hr style="border: 5px solid rgb(59, 156, 235);border-radius: 10px; width: 15%">
     </div>
-    
+
+      
+    <div class="card-deck" style="margin: auto;width: 80%;margin-top: 70px;margin-bottom: 70px;">
+        <a href="connectit.html"><div class="card">
+          <img class="card-img-top" src="assets/img/connect_icon_png_314085_44224.png" height="250px" style="padding:35px" alt="Card image cap">
+          <div class="card-body" style="color: black;">
+            <h5 class="card-title">Connect It</h5>
+            <p class="card-text" style="margin-bottom: 40px;">Our experts will home deliver, install or set-up your kit when it suits you.</p>
+          </div></a>
+        </div>
+        <a href="fixit.html"><div class="card">
+          <img class="card-img-top" src="assets/img/resolving_problems-resolving-problems-512.png" alt="Card image cap" height="250px" style="padding:35px">
+          <div class="card-body" style="color: black;">
+            <h5 class="card-title">Fix It</h5>
+            <p class="card-text">Our experts will advice you and repair youe kit remotely, in-store or at home.</p>
+          </div></a>
+        </div>
+        <a href="improveit.html"><div class="card">
+          <img class="card-img-top" src="assets/img/unnamed.png" alt="Card image cap" height="250px" style="padding:35px">
+          <div class="card-body" style="color: black;">
+            <h5 class="card-title">Improve It</h5>
+            <p class="card-text">Our experts will help make the most of your kit and upgrade it when you need to.</p>
+          </div></a>
+        </div>
+        <a href="protectit.html"><div class="card">
+            <img class="card-img-top" src="assets/img/gas-is-economical.png" alt="Card image cap" height="250px" style="padding:35px">
+            <div class="card-body" style="color: black;">
+              <h5 class="card-title">Protect It</h5>
+              <p class="card-text">Our helpful range of servises will protect all your kit against the worst.</p>
+            </div></a>
+          </div>
+    </div>
+
+    <div style="background-color: rgba(243, 243, 243, 0.753);padding-top: 50px; padding-bottom: 50px;">
+        <div class="container3" style="margin-bottom: 50px;text-align: center;">
+            <h2>Customer Reviews</h2>
+            <hr style="border: 5px solid rgb(243, 168, 59);border-radius: 10px; width: 8%">
+        </div>
+
+
+        <div class="row justify-content-md-center">
+            <div class="col col-md-4" style="margin-right: 100px;margin-top: 0px;">
+                <img src="assets/img/client-review.png" width="100%" height="100%">
+            </div>
+            <div class="col col-md-3">
+                <div class="card2">
+                    <img class="card-img-top" src="assets/img/client-1.jpeg" alt="Card image cap" height="250px" style="padding:35px;border-radius: 50%;width: 80%;margin-left: 30px;">
+                    <div class="card-body">
+                    <h5 class="card-title" style="text-align: center;color: rgb(243, 168, 59);font-size: 24px;font-weight: 700;">John Doe</h5>
+                    <p class="card-text" style="text-align: center;font-weight: 100;">Board of Director</p>
+                    <p class="card-text" style="text-align: center;">Our helpful range of servises will protect all your kit against the worst.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-3">
+                <div class="card2">
+                    <img class="card-img-top" src="assets/img/client-2.jpg" alt="Card image cap" height="250px" style="padding:35px;border-radius: 50%;width: 80%;margin-left: 30px;">
+                    <div class="card-body">
+                    <p class="card-title" style="text-align: center;color: rgb(243, 168, 59);font-size: 24px;font-weight: 700;">Joseph Stalin</p>
+                    <p class="card-text" style="text-align: center;font-weight: 100;">CEO</p>
+                    <p class="card-text" style="text-align: center;">Our helpful range of servises will protect all your kit against the worst.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="containers" style="margin-top: 0px;">
+        <img src="assets/img/5195ebb8c5f9772deda82aa2937134d3.jpg" alt="Snow" style="width:100%;border-radius: 1%;filter: blur(0.5px);" >
+        <h1 class="centered" style="font-weight: 1000;">Track your order online</h1>
+        <h4 class="centered2" style="font-weight: 400;">Wondering where your delivery or repair has got to? We'll help you track it down.
+        </h4>
+        <div class="centered3">
+            <a href="#">
+                <button class="button btn-danger"><span>Track Now</span></button>
+            </a>
+        </div>
+    </div>
+
+
     <hr style="border: 2px solid black;border-radius: 10px;width: 95%;">
 
-
-    <div class="container2">
-        <h2>What type of Kit?</h2>
-        <hr style="border: 5px solid rgb(59, 156, 235);border-radius: 10px; width: 8%;">
+    <div class="container2" style="padding-bottom: 50px;background-color: blanchedalmond;">
+        <h2 style="padding-bottom: 20px;">Check out our Online Shopping servises!</h2>
+        <!-- <hr style="border: 5px solid rgb(59, 156, 235);border-radius: 10px; width: 15%"> -->
+        <button class="button btn-danger"><span>Check Out </span></button>
     </div>
 
+    <hr style="border: 2px solid black;border-radius: 10px;width: 95%;">
 
     <div class="row justify-content-md-center">
         <div class="col col-md-4">
             <div class="card3">
-                <img class="card-img-top" src="assets/img/tool-box-set-kit-512.png" alt="Card image cap" style="padding:35px;width: 60%;margin-left: 100px;">
+                <img class="card-img-top" src="assets/img/undraw_Devices_re_dxae.svg" alt="Card image cap" height="250px" style="padding:35px;border-radius: 50%;width: 80%;margin-left: 30px;">
                 <div class="card-body">
-                <h5 class="card-title" style="text-align: center;color: rgba(53, 121, 246, 1);font-size: 24px;font-weight: 700;">Kit Set-up</h5>
+                <h5 class="card-title" style="text-align: center;color: rgba(53, 121, 246, 1);font-size: 24px;font-weight: 700;">Repair & Support Plan</h5>
                 <!-- <p class="card-text" style="text-align: center;font-weight: 100;">Board of Director</p> -->
-                <p class="card-text" style="text-align: center;">Getting your new kit working properly can be a fuss – so let our experts handle the tough stuff with an in-store set-up.</p>
-                <a href="#!"><p class="card-text" style="text-align: center;"><button type="button" class="btn btn-primary" style="background-color: rgba(53, 121, 246, 1);">More Info</button></p></a>
+                <p class="card-text" style="text-align: center;">Keep your kit working and get the help you need – whatever happens – with our comprehensive Repair & Support Plans.</p>
+                <a href="fixit.html"><p class="card-text" style="text-align: center;"><button type="button" class="btn btn-primary" style="background-color: rgba(53, 121, 246, 1);">More Info</button></p></a>
                 </div>
             </div>
         </div>
@@ -127,12 +210,12 @@
 
         <div class="col col-md-4">
             <div class="card3">
-                <img class="card-img-top" src="assets/img/worker-moving-house-006-512.png" alt="Card image cap" style="padding:35px;width: 60%;margin-left: 100px;">
+                <img class="card-img-top" src="assets/img/undraw_mobile_testing_reah.svg" alt="Card image cap" height="250px" style="padding:35px;border-radius: 50%;width: 80%;margin-left: 30px;">
                 <div class="card-body">
-                <h5 class="card-title" style="text-align: center;color: rgba(53, 121, 246, 1);font-size: 24px;font-weight: 700;">Kit Installation</h5>
+                <h5 class="card-title" style="text-align: center;color: rgba(53, 121, 246, 1);font-size: 24px;font-weight: 700;">Mobile Complete</h5>
                 <!-- <p class="card-text" style="text-align: center;font-weight: 100;">Board of Director</p> -->
-                <p class="card-text" style="text-align: center;">Need a hand putting it all together? We'll visit your home and do the hard work at a time that suits you.</p>
-                <a href="#!"><p class="card-text" style="text-align: center;"><button type="button" class="btn btn-primary" style="background-color: rgba(53, 121, 246, 1);">More Info</button></p></a>
+                <p class="card-text" style="text-align: center;">From loss and theft to spills and smashes, our Mobile Complete insurance protects your kit from anything life can throw at you.</p>
+                <a href="mobilecomplete.html"><p class="card-text" style="text-align: center;"><button type="button" class="btn btn-primary" style="background-color: rgba(53, 121, 246, 1);">More Info</button></p></a>
                 </div>
             </div>
         </div>
@@ -151,33 +234,16 @@
     <div class="row justify-content-md-center">
         <div class="col col-md-4">
             <div class="card3" style="padding-bottom: 30px;">
-                <img class="card-img-top" src="assets/img/15-512.png" alt="Card image cap" style="padding:35px;border-radius: 50%;width:  60%;margin-left: 100px;">
+                <img class="card-img-top" src="assets/img/undraw_travel_together_re_kjf2.svg" alt="Card image cap" height="250px" style="padding:35px;border-radius: 50%;width: 80%;margin-left: 30px;">
                 <div class="card-body">
-                <p class="card-title" style="text-align: center;color: rgba(53, 121, 246, 1);font-size: 24px;font-weight: 700;">Kit Tutorial</p>
+                <p class="card-title" style="text-align: center;color: rgba(53, 121, 246, 1);font-size: 24px;font-weight: 700;">Trade-in</p>
                 <!-- <p class="card-text" style="text-align: center;font-weight: 100;">CEO</p> -->
-                <p class="card-text" style="text-align: center;">Want to see how it all works? Book an in-store demo and let our experts walk you through it.</p>
+                <p class="card-text" style="text-align: center;">Get cash back for your old phone – or gift cards for your laptop – with our quick and easy trade-in service.</p>
                 <a href="#!"><p class="card-text" style="text-align: center;"><button type="button" class="btn btn-primary" style="background-color: rgba(53, 121, 246, 1);">More Info</button></p></a>
                 </div>
             </div>
         </div>
     </div>
-
-
-    <div class="containers2" style="margin-bottom: 30px;">
-        <img src="assets/img/web-design-blog.png" style="width:100%;border-radius: 1%;" >
-        <h1 class="centered4" style="font-weight: 1000;">Why choose US Repairs?</h1>
-        
-        <h4 class="centered5" style="font-weight: 100;width: 40%;">Whatever it is and wherever you bought it, our local experts can help – from setting it up for the first time, to putting it back together when it all goes wrong.
-        </h4>
-        <h4 class="centered6" style="font-weight: 300;width: 40%;">
-            <ul>
-                <li>All repairs are guaranteed for at least three months</li>
-                <li>Appointments at a time that suits you</li>
-                <li>All our repair experts are fully trained and accredited</li>
-            </ul>
-        </h4>
-    </div>
-    
 
 
 

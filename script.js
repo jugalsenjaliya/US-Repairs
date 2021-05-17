@@ -199,20 +199,22 @@ function checkbox2(){
 
 
 let suggestions = [
-    "Audio",
-    "Computing",
-    "KitchenAppliances",
-    "SmartTechnology",
-    "Smartphones",
-    "Television",
-    "Entertainment",
+    "connectit",
+    "dishwasherfix",
+    "fixit",
+    "fridgefix",
+    "improveit",
+    "index",
+    "kitguides",
     "login",
     "signup",
-    "fixit",
-	"connectit",
-	"kitguides",
+    "laptopfix",
+	"macbookfix",
+	"protectit",
 	"improveit",
-
+	"repairform",
+	"tvfix",
+	"washingfix",
 ];
 
 
@@ -240,7 +242,6 @@ inputBox.onkeyup = (e)=>{
             linkTag.click();
         }
         emptyArray = suggestions.filter((data)=>{
-            //filtering array value and user characters to lowercase and return only those words which are start with user enetered chars
             return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase()); 
         });
         emptyArray = emptyArray.map((data)=>{
