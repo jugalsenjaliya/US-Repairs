@@ -436,6 +436,14 @@ input[type="radio"]{
 }
 
 
+.kitlist{
+  display: flex; 
+  padding-left: 120px;
+  padding-right: 120px;
+  margin: 50px 90px 60px 90px;
+}
+
+
 
 
 
@@ -550,3 +558,16 @@ input[type="radio"]{
   /* margin-top: 10px; */
   margin-bottom: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
